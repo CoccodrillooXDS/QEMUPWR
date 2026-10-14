@@ -1,0 +1,39 @@
+QEMUPWR 1.4 - Tested image profiles (x86)
+==========================================
+
+Windows NT 3.51 SP5 (build 1057)
+  Kernel PE timestamp:   0x321A03D2
+  Kernel PE checksum:    0x000D3B29
+  Kernel PE image size:  0x000BCD00
+  Kernel file CRC32:     0x409E1420
+  Shutdown signature:    0x8014BA1D
+  HAL import slot:       0x8010036C
+
+Windows NT 4.0 SP6 (build 1381)
+  Kernel PE timestamp:   0x405977CD
+  Kernel PE checksum:    0x000EACFF
+  Kernel file image size: 0x000E5000
+  Kernel runtime size:   0x000E5000 or 0x000DC000
+  Kernel file CRC32:     0x55287965
+  Shutdown signature:    0x80158297
+  HAL import slot:       0x80144818
+
+Winlogon images
+---------------
+Windows NT 3.51 SP5
+  Image base:            0x02160000
+  PE timestamp:          0x32275244
+  PE checksum:           0x00038230
+  PE image size:         0x0002C000
+  In-memory patch site:  0x02164272
+  Original bytes:        8B 5C 24 14 53
+
+Windows NT 4.0 SP6
+  Image base:            0x01000000
+  PE timestamp:          0x3B293B47
+  PE checksum:           0x0003D41D
+  PE image size:         0x00033000
+  In-memory patch site:  0x0100180C
+  Original bytes:        8B 74 24 18 56
+
+Compatibility with other images is untested.
