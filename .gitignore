@@ -1,0 +1,18 @@
+# Build outputs
+/obj/
+/DIST/
+/*.obj
+/*.exe
+/*.EXE
+/*.sys
+/*.SYS
+/*.pdb
+/*.ilk
+/*.idb
+/*.map
+/*.res
+
+# DDK build logs
+/build*.log
+/build*.err
+/build*.wrn
