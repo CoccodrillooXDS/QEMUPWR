@@ -52,8 +52,9 @@ application with CL/LINK and copies QEMUPWR.EXE and QEMUPWR.SYS to DIST.
 
 Distribution
 ------------
-Only QEMUPWR.EXE and QEMUPWR.SYS are required at runtime. End-user
-instructions are maintained with the binaries on the main branch.
+Only QEMUPWR.EXE and QEMUPWR.SYS are required at runtime. Installable
+packages and end-user instructions are available in the GitHub Releases
+section.
 
 QEMUPWR.EXE accepts SCAN, INSTALL, STATUS and REMOVE as command-line
 actions. Diagnostic reports are written only through the GUI Save Report
